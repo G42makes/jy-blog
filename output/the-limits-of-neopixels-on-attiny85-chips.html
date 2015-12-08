@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Making Up MAC Addresses</title>
+        <title>The Limits of NeoPixels on ATTiny85 Chips</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
 
         <!--[if IE]>
@@ -15,31 +15,32 @@
                 <h1><a href="/">Jared Young </a></h1>
                 <nav><ul>
                     <li><a href="/category/blogging.html">Blogging</a></li>
-                    <li><a href="/category/electronics.html">Electronics</a></li>
-                    <li class="active"><a href="/category/networking.html">Networking</a></li>
+                    <li class="active"><a href="/category/electronics.html">Electronics</a></li>
+                    <li><a href="/category/networking.html">Networking</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 <section id="content" class="body">
   <article>
     <header>
       <h1 class="entry-title">
-        <a href="/making-up-mac-addresses.html" rel="bookmark"
-           title="Permalink to Making Up MAC Addresses">Making Up MAC Addresses</a></h1>
+        <a href="/the-limits-of-neopixels-on-attiny85-chips.html" rel="bookmark"
+           title="Permalink to The Limits of NeoPixels on ATTiny85 Chips">The Limits of NeoPixels on ATTiny85 Chips</a></h1>
     </header>
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2015-11-25T13:15:00-05:00">
-                Published: Wed 25 November 2015
+        <abbr class="published" title="2015-12-06T21:29:00-05:00">
+                Published: Sun 06 December 2015
         </abbr>
 
         <address class="vcard author">
                 By                         <a class="url fn" href="/author/jared-young.html">Jared Young</a>
         </address>
-<p>In <a href="/category/networking.html">Networking</a>.</p>
+<p>In <a href="/category/electronics.html">Electronics</a>.</p>
 
-</footer><!-- /.post-info -->      <p>Just a quick one here. I was working on some virutalization at the office and we used generated MAC addresses from a script we had written for each of the interfaces on our systems. The first part of the MAC was setup to allow us to know what network we were on inside the VM, and the last part was basically part of the IP address that should be assigned to it. For some reason one network was unable to get the interfaces online. The error in Linux was annoying because it was saying "unable to assign address" and nothing else. After a lot of digging an old memory bubbled to the surface and I did some searching online. Under <a href="https://en.wikipedia.org/wiki/MAC_address#Address_details">Address details</a> on Wikipedia you can find a graphic that shows some of the bits of a MAC address are used for specific purposes. And we were accidentally setting the "multicast" bit. So, of course, Linux just failed to process that and gave a bad error message.
-Once we took that into account, everything returned to working properly.</p>
+</footer><!-- /.post-info -->      <p>In the spirit of the season I wanted to replace the simple incandescent bulbs in a medium sized plug in star that I've had in my window with a strip of NeoPixels(RGB addressable LEDs). The strip I had around was about 1m long and 144 LEDs per meter. Interestingly this was basically the exact length that I needed.
+Opening and installing was fine, but then I needed to control and power them. My first attempts used an Adafruit Trinket, a small board with USB and an ATTiny85 onboard. Using the default strand test, I just updated it to 144 LEDs and tested: nothing. Tried it with a larger Arduino board and it works fine, but not on the ATTiny85. After some guesses and tests I figured out that the maximum number of LEDs that I can run from a ATTiny85 is 110. That will not cut it with this. A quick test with a bare ATTiny85 showed that this limit is not related to the bootloader used, so I think it's memory. I could not find any suggestions on saving memory aside from generating each string on the fly, but I don't know that I can do that without re-writing the library completely, and I don't feel like doing that for a decoration.
+So for now my star runs with a large Arduino behind it. I think I'll look into a slightly better micro board and see if I can make this star USB powered yet.</p>
     </div><!-- /.entry-content -->
 
   </article>
