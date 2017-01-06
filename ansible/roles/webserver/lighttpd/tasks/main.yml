@@ -6,3 +6,15 @@
 - name: Install LigHTTPd
   apt: name=lighttpd update_cache=yes state=present
 
+#copy over a modified evhost config
+# websites need to be in /var/www/html/%0/htdocs/ where %0 is domain.tld
+# see: https://www.linode.com/docs/websites/lighttpd/use-lighttpd-web-server-on-ubuntu-16-04
+- name: Copy updated evhosts config
+  copy: src='10-evhost.conf' dest='/etc/lighttpd/conf-available/10-evhost.conf' owner=root group=root mode=0644
+
+#Enable the evhost option
+- name: Enabling LigHTTPd evhosts
+  command: "lighttpd-enable-mod evhost"
+  args:
+    creates: "/etc/lighttpd/conf-enabled/10-evhost.conf"
+  notify: restart lighttpd

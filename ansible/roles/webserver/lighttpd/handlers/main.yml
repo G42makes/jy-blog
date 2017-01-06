@@ -1,0 +1,6 @@
+---
+#File: roles/webserver/lighttpd/handlers/main.yml
+#Manage lighttpd state
+
+- name: restart lighttpd
+  service: name=lighttpd state=restarted
