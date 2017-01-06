@@ -1,0 +1,13 @@
+---
+#File: roles/common/setup/tasks/main.yml
+#Basic setup tasks for all systems
+
+#Python may not be available on the base images, this will install it if that is the case
+# This requires that gather_facts: no, in order to not try running python code before it's installed
+- name: Install Python
+  raw: apt-get install -y python
+
+#We had to skip the fact gathering due to missing python, but now we can collect that data for each host
+- name: Gather Facts
+  setup:
+

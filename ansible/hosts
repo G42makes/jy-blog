@@ -1,0 +1,7 @@
+[digitalocean]
+localhost ansible_connection=local
+
+[BLOG]
+BLOG1
+
+[DO-BLOG]
