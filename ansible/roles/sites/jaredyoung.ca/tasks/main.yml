@@ -9,3 +9,19 @@
   with_items:
     - "jaredyoung.ca"
     - "jaredyoung.ca/htdocs"
+
+#We create a git folder, similar to /var/www, we use /var/git
+- name: Create GIT global folder
+  file: path="/var/git" state=directory mode=0755 owner=root group=root
+
+#pull the git repo(contains this file actually...)
+- name: Downloading website repo
+  git:
+    repo: https://github.com/G42makes/jy-blog.git
+    dest: /var/git/jy-blog
+
+#the blog is pre-configured to build where we want it, so just need to run make
+- name: Generating website from Pelican
+  make:
+    chdir: /var/git/jy-blog
+    target: html

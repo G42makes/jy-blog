@@ -4,12 +4,12 @@
 
 #Let's start with supporting packages
 - name: Install Pelican Supporting Packages
-  apt: 'name={{item}}' update_cache=yes state=present
+  apt: name='{{item}}' update_cache=yes state=present
   with_items:
    - python-pip
 
 - name: Install Pelican and tools via PIP
-  pip: 'name={{item}}'
+  pip: name='{{item}}'
   with_items:
    - pelican
    - Markdown
