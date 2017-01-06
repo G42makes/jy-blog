@@ -12,4 +12,6 @@
   gather_facts: no #needed to avoid python error fixed below
   roles:
     - common/setup
+    - tools/pelican
     - webserver/lighttpd
+    - sites/jaredyoung.ca

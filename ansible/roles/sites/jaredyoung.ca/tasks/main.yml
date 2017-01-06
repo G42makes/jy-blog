@@ -1,0 +1,11 @@
+---
+#File: roles/sites/jaredyoung.ca/tasks/main.yml
+#Setup the JaredYoung.ca site
+#TODO: meta require webserver
+
+#Let's start with the folder for the website
+- name: Create Domain Folders
+  file: path="/var/www/html/{{item}}" state=directory mode=0755 owner=root group=root
+  with_items:
+    - "jaredyoung.ca"
+    - "jaredyoung.ca/htdocs"

@@ -6,6 +6,8 @@
 - name: Install LigHTTPd
   apt: name=lighttpd update_cache=yes state=present
 
+#TODO: see if we can be more exclisive on static only: https://astrocyte.no-ip.org/output/pelican-blog-software-running-on-lighttpd.html
+
 #copy over a modified evhost config
 # websites need to be in /var/www/html/%0/htdocs/ where %0 is domain.tld
 # see: https://www.linode.com/docs/websites/lighttpd/use-lighttpd-web-server-on-ubuntu-16-04
