@@ -1,0 +1,8 @@
+---
+#File: roles/webserver/lighttpd/tasks/main.yml
+#Install and initially configure lighttpd
+
+#Let's start with the package install
+- name: Install LigHTTPd
+  apt: name=lighttpd update_cache=yes state=present
+
