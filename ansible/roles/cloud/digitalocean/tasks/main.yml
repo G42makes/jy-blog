@@ -1,6 +1,8 @@
 ---
 #File: roles/cloud/digitalocean/tasks/main.yml
 #Setup required systems on Digital Ocean
+# Arguments:
+#	grouplist	: the name of an inventory group that will be used as a source of hosts to create
 
 - name: Double check that API Token was set properly
   fail: msg='Environment Variable "DO_API_TOKEN" Must Be Set Before Running'
@@ -36,5 +38,13 @@
   no_log: true
   #no_log is used to avoid a bunch of data on screen
 
-- name: Pause to let systems boot
-  pause: seconds=15
+#Notes: 
+# https://gist.github.com/sheldonh/7203512
+# searcho for 'ssh': http://docs.ansible.com/ansible/wait_for_module.html
+- name: Wait for SSH to come online on new systems
+  wait_for: host={{item}} port=22 search_regex="OpenSSH"
+  with_items: "{{ groups['DO-' + grouplist] }}"
+
+#replaced by above wait_for task
+#- name: Pause to let systems boot
+#  pause: seconds=15
