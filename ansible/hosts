@@ -2,6 +2,6 @@
 localhost ansible_connection=local
 
 [BLOG]
-BLOG1
+BLOG1 floating_ip=159.203.48.236
 
 [DO-BLOG]

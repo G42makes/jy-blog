@@ -38,6 +38,20 @@
   no_log: true
   #no_log is used to avoid a bunch of data on screen
 
+#if there is a floating IP associated with the host, assign it as appropriate
+#See: https://developers.digitalocean.com/documentation/v2/#assign-a-floating-ip-to-a-droplet
+# curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer b7d03a6947b217efb6f3ec3bd3504582" -d '{"type":"assign","droplet_id":8219222}' "https://api.digitalocean.com/v2/floating_ips/45.55.96.47/actions" 
+# TODO: change the HEADER format over to the 'headers' format(once I find a good example)
+- name: Setting up Floating IP Addressing
+  uri: 
+    url: "https://api.digitalocean.com/v2/floating_ips/{{hostvars[item.item].floating_ip}}/actions"
+    body: '{"type":"assign","droplet_id":{{item.droplet.id}} }'
+    body_format: json
+    HEADER_Authorization: "Bearer {{do_token}}"
+    status_code: 200,201
+  with_items: "{{ droplet_details.results }}"
+  when: hostvars[item.item].floating_ip is defined
+
 #Notes: 
 # https://gist.github.com/sheldonh/7203512
 # searcho for 'ssh': http://docs.ansible.com/ansible/wait_for_module.html
@@ -45,6 +59,5 @@
   wait_for: host={{item}} port=22 search_regex="OpenSSH"
   with_items: "{{ groups['DO-' + grouplist] }}"
 
-#replaced by above wait_for task
-#- name: Pause to let systems boot
-#  pause: seconds=15
+- name: Pausing to let services settle
+  pause: seconds=5
