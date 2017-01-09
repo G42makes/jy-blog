@@ -16,7 +16,7 @@ will be another 15 degree wall, so I will document the process there in
 a clearer manner. For now I have a single panel wall up and usable, and
 I'm happy with that start.
 
-<img src="images/IMG_0059.jpg" style="width: 800px; max-width: 100%; height: auto;" />
+<img src="/images/IMG_0059.jpg" style="width: 800px; max-width: 100%; height: auto;" />
 
 <!--more-->  
 **Step 1:** **Roof Strapping**
@@ -34,7 +34,7 @@ so they don't shift. It is parallel to the rafters, but not lined up
 under one. The distance from the wall was figured out from the cad
 software.
 
-<img src="images/IMG_0058.jpg" style="width: 800px; max-width: 100%; height: auto;" />
+<img src="/images/IMG_0058.jpg" style="width: 800px; max-width: 100%; height: auto;" />
 
 **Step 3: Cutting the Vertical Wall Supports**
 
@@ -61,7 +61,7 @@ Before permanently attaching the first one, I used it as a template on
 the next two to ensure they fit, some quick cuts later and I had 3 x 2x6
 beams that all fit perfectly into place.
 
-<img src="images/IMG_0060.jpg" style="width: 800px; max-width: 100%; height: auto;" />
+<img src="/images/IMG_0060.jpg" style="width: 800px; max-width: 100%; height: auto;" />
 
 **Step 4: Attach Support**
 
@@ -99,7 +99,7 @@ a final hold when I wanted to go further up. Just to make my life simple
 I use a pair of screws to create a mount on the back to hold the allen
 keys for later use.
 
-<img src="images/IMG_0062.jpg" style="width: 800px; max-width: 100%; height: auto;" />
+<img src="/images/IMG_0062.jpg" style="width: 800px; max-width: 100%; height: auto;" />
 
 **Step 7: Test**
 
@@ -113,7 +113,7 @@ Have fun with it, this is exercise, but it's also fun. Get an old
 mattress to fall on, and if you have kids, put a pair of anchors near
 the roof to allow them to climb in a harness.
 
-<img src="images/IMG_0061.jpg" style="width: 800px; max-width: 100%; height: auto;" />
+<img src="/images/IMG_0061.jpg" style="width: 800px; max-width: 100%; height: auto;" />
 
 Jared
 
