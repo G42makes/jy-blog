@@ -23,7 +23,7 @@ this scam, I decided to see if I could mess with them back. The
 following exchange occurred and is unedited, so I probably typo'd a
 bunch of stuff. Pretty well everything I say is a lie, so don't worry
 about that side of things, I knew it was a scammer from the start. I'm
-impressed it went this far. (Sorry about formatting issues, some o fit
+impressed it went this far. (Sorry about formatting issues, some of it
 just didn't transfer well.)  
 <!--more-->
 

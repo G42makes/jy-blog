@@ -3,7 +3,6 @@ Date: 2014-03-09 19:53
 Author: Geek42
 Category: General
 Tags: CAD, carving, design, draft, FreeCAD, garage, projects, ski, ski press, skiing
-Slug: 162
 Status: published
 
 Alright, I have wanted to make a ski press forever, so I could make my
