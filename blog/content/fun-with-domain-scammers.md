@@ -1,7 +1,7 @@
 Title: Fun with Domain Scammers
 Date: 2014-06-23 12:06
 Author: Geek42
-Category: General, Tech
+Category: General
 Tags: domain scam, scam, spam, valuation scam
 Slug: fun-with-domain-scammers
 Status: published
