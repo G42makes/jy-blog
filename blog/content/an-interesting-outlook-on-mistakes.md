@@ -12,7 +12,7 @@ interestingly profound.
 
 <!--more-->
 
-http://youtu.be/dvKeCcxD3rQ?t=6m38s
+http://youtu.be/dvKeCcxD3rQ
 
 In it he discusses an outlook on your past mistakes that I really like.
 How they stay the same size, no matter how much you grow, but your
