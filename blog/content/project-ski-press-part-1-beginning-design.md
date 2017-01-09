@@ -1,7 +1,7 @@
 Title: Project: Ski Press: Part 1 - Beginning Design
 Date: 2014-03-09 19:53
 Author: Geek42
-Category: General
+Category: Ski Press
 Tags: CAD, carving, design, draft, FreeCAD, garage, projects, ski, ski press, skiing
 Status: published
 
