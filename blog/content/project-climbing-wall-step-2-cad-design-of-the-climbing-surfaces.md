@@ -15,12 +15,9 @@ slope, with some technical corners wherever I could fit them. I was able
 to achieve all my goals quickly with the design outline I ended up with
 in this phase of the design.
 
-\[caption id="attachment\_200" align="aligncenter"
-width="594"\][![renderMK1.0](http://jaredyoung.ca/wp-content/uploads/2014/04/renderMK1.0.png "Climbing Surface Layout"){.wp-image-200
-width="594"
-height="325"}](http://jaredyoung.ca/wp-content/uploads/2014/04/renderMK1.0.png)
+<img src="/images/renderMK1.0.png" style="width: 800px; max-width: 100%; height: auto;" alt="Climbing Surface Layout" />
 A basic layout showing the climbing surfaces without some of the filler
-angles and panels yet added.\[/caption\]
+angles and panels yet added.
 
 <!--more-->  
 The design I went for was 2 panels at 30 degrees angle, and 2 panels at
