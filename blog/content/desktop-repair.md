@@ -17,11 +17,8 @@ watch content at full resolution on my projector, which was an upgrade
 from the then 10 year old system I had been using. When it died I really
 wanted to get a system that could do some more work that I wanted to get
 into, so it was the perfect time to upgrade!  
-\[caption id="attachment\_193" align="aligncenter"
-width="933"\][![](http://jaredyoung.ca/wp-content/uploads/2014/03/IMG_0054.jpg "Workstation"){.wp-image-193
-width="933"
-height="622"}](http://jaredyoung.ca/wp-content/uploads/2014/03/IMG_0054.jpg)
-My currently running workstation system.\[/caption\]
+![Workstation]({filename}/images//IMG_0054.jpg)
+My currently running workstation system.
 
 <!--more-->
 
