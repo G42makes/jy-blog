@@ -14,14 +14,12 @@ and that part rests directly on the bottom. The top presses on the ski
 via the air bladder, so if it deforms a bit more, that is not a big
 issue. Either way we have to make both of these very stiff.
 
-\[caption id="attachment\_171" align="aligncenter" width="593"\][![Ski
-Press With
-Base](http://jaredyoung.ca/wp-content/uploads/2014/03/Pic2.png "Ski Press With Base"){.wp-image-171
-width="593"
-height="311"}](http://jaredyoung.ca/wp-content/uploads/2014/03/Pic2.png)
+<img src="/images/Pic2.png" style="width: 800px; max-width: 100%; height: auto;" alt="Ski Press With Base" />
+
 I rendering of the ski press with supports and base in the corner of my
 workshop. Dark and light blue are the alternating layers of dimensional
-lumber and plywood.\[/caption\]  
+lumber and plywood.
+
 <!--more-->  
 The design that I am using as a, very rough, guide, used laminated 2 X
 12 lumber and plywood. I don't know what the dimensions of the plywood

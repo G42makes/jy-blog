@@ -15,12 +15,10 @@ removed the individual boards from the work surface objects, mostly due
 to the fact that I'm still planning them, and doing it manually is way
 too much work.
 
-\[caption id="attachment\_182" align="aligncenter"
-width="593"\][![](http://jaredyoung.ca/wp-content/uploads/2014/03/Pic3.png "Current Ski Press Layout"){.wp-image-182
-width="593"
-height="327"}](http://jaredyoung.ca/wp-content/uploads/2014/03/Pic3.png)
+<img src="/images/Pic3.png" style="width: 800px; max-width: 100%; height: auto;" alt="Current Ski Press Layout"/>
+
 This image shows the top and bottom work surfaces, the support
-legs(pink) and the crossing support beams(orange).\[/caption\]
+legs(pink) and the crossing support beams(orange).
 
 <!--more-->  
 I've added some more math to my spreadsheets, which are helping me

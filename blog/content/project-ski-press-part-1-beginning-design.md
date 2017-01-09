@@ -12,10 +12,8 @@ of a press. Well, first think I really have to do is learn to design,
 and so I start with learning to do some CAD work using a free, open
 tool: [FreeCAD](http://www.freecadweb.org/ "FreeCAD").
 
-[![A CAD rendering of the corner of my
-garage.](http://jaredyoung.ca/wp-content/uploads/2014/03/Pic1.png "Corner of my garage."){.wp-image-163
-.aligncenter width="438"
-height="241"}](http://jaredyoung.ca/wp-content/uploads/2014/03/Pic1.png)  
+<img src="/images/Pic1.png" style="width: 800px; max-width: 100%; height: auto;" alt="Corner of my garage." />
+
 <!--more-->First I had to learn some of the basics of using CAD
 software, and I don't have a budget for CAD software. A little(and I do
 mean small amount) of searching Google later and I came upon
