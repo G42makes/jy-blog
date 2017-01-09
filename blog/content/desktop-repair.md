@@ -18,6 +18,7 @@ from the then 10 year old system I had been using. When it died I really
 wanted to get a system that could do some more work that I wanted to get
 into, so it was the perfect time to upgrade!  
 ![Workstation]({filename}/images/IMG_0054.jpg)
+<img src="images/IMG_0054.jpg" style="width: 500px; max-width: 100%; height: auto;" alt="Workstation" />
 My currently running workstation system.
 
 <!--more-->
