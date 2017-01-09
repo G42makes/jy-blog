@@ -48,9 +48,14 @@
     body: '{"type":"assign","droplet_id":{{item.droplet.id}} }'
     body_format: json
     HEADER_Authorization: "Bearer {{do_token}}"
-    status_code: 200,201
+    method: POST
+    #we accept 422 because I have not yet bothered to write code to check if the IP  is already assigned to the host... this is probably a bad solution
+    status_code: 200,201,422
   with_items: "{{ droplet_details.results }}"
   when: hostvars[item.item].floating_ip is defined
+  register: ip_resp
+
+- debug: var=ip_resp
 
 #Notes: 
 # https://gist.github.com/sheldonh/7203512
