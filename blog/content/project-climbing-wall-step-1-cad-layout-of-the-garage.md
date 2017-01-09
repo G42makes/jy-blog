@@ -6,13 +6,11 @@ Tags: beams, CAD, climbing, climbing wall, design, extrude, projects, wood
 Slug: project-climbing-wall-step-1-cad-layout-of-the-garage
 Status: published
 
-\[caption id="attachment\_192" align="aligncenter"
-width="691"\][![template1](http://jaredyoung.ca/wp-content/uploads/2014/03/template1.png "Garage Corner Template"){.wp-image-192
-width="691"
-height="370"}](http://jaredyoung.ca/wp-content/uploads/2014/03/template1.png)
+<img src="/images/template1.png" style="width: 800px; max-width: 100%; height: auto;" alt="Garage Corner Template" />
+
 The empty corner of my garage. Hanging bracket on the left is the end of
 a storage area, on the right is the door rail and it's support
-beam.\[/caption\]
+beam.
 
 I have more projects that I want to complete, and building a climbing
 wall in the corner of the garage is one of them. To get things started I
