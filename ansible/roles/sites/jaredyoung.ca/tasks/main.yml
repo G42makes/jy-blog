@@ -23,5 +23,5 @@
 #the blog is pre-configured to build where we want it, so just need to run make
 - name: Generating website from Pelican
   make:
-    chdir: /var/git/jy-blog/blog
+    chdir: /var/git/jy-blog/blogs/jaredyoung.ca
     target: html
