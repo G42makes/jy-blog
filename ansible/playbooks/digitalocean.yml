@@ -12,6 +12,7 @@
   gather_facts: no #needed to avoid python error fixed below
   roles:
     - common/setup
+    - cloud/digitalocean-graphs
     - tools/pelican
     - webserver/lighttpd
     - sites/jaredyoung.ca

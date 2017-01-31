@@ -1,0 +1,18 @@
+---
+#File: roles/cloud/digitalocean-graphs/tasks/main.yml
+#Setup required systems on Digital Ocean
+# https://www.digitalocean.com/company/blog/improved-graphs
+# I pulled down the install.sh from the above instructions to create this
+#  A YUM version could be done just as easily
+
+ - name: Installing HTTPS transport for Apt
+   apt: name=apt-transport-https update_cache=yes
+
+ - name: Setting up DigitalOcean Apt Repo Key
+   apt_key: url=https://repos.sonar.digitalocean.com/sonar-agent.asc state=present
+
+ - name: Setting up DigitalOcean Apt Repo
+   apt_repository: repo='deb https://repos.sonar.digitalocean.com/apt main main' state=present filename='digitalocean-agent' update_cache=yes
+
+ - name: Installing DigitalOcean Graph Agent
+   apt: name=do-agent
